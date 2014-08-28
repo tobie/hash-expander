@@ -1,0 +1,31 @@
+{
+  "name": "hash-expander",
+  "version": "1.0.0",
+  "description": "Turns short Git SHA-1s into their longer counterpart.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u tdd ./test/*.js"
+  },
+  "keywords": [
+    "git",
+    "hash",
+    "short",
+    "shorthash"
+  ],
+  "author": "Tobie Langel",
+  "license": "Apache License, Version 2.0",
+  "devDependencies": {
+    "mocha": "1.14.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tobie/hash-expander.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tobie/hash-expander/issues"
+  },
+  "homepage": "https://github.com/tobie/hash-expander"
+}
